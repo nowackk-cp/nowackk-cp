@@ -1,19 +1,11 @@
 # Ahmet Emre Yıldız
 
-Python/Django ile uygulama geliştirme, test otomasyonu ve AI araçlarının doğrulanması.
+Python/Django, test otomasyonu ve AI ile geliştirilen uygulamaların denetlenmesi üzerine çalışıyorum.
 
 ## KârKontrol
 
-[Kaynak kod](https://github.com/nowackk-cp/karkontrol) ·
-[Test ve kapsam raporları](https://nowackk-cp.github.io/karkontrol/)
+Codex'e yazdırdığım pazaryeri kâr/hakediş demosunu kuruş hesapları, atomik dosya aktarımı, kullanıcı izolasyonu ve asistan yönlendirmesi üzerinden denetlettim. Testler, gerçek model koşuları ve dış inceleme bulguları ayrı kanıtlarla kayıtlıdır.
 
-Pazaryeri kâr/hakediş demosu: Decimal motoru, atomik CSV/XLSX aktarımı,
-SQL raporları, iade ve kullanıcı izolasyonu.
+[Kaynak kod ve güncel ölçümler](https://github.com/nowackk-cp/karkontrol) · [Test ve kapsam raporları](https://nowackk-cp.github.io/karkontrol/) · [Hata kayıtları](https://github.com/nowackk-cp/karkontrol/blob/main/BUGS.md)
 
-- 316 unit/property/integration/eval test ve 12 Playwright E2E.
-- Motor dal kapsamı 44/44 = %100; mutasyon 342/369 = %92,68.
-- Zorunlu CI kontrolleri ve başarısız PR'ın birleştirilmediğini gösteren kayıt.
-- Gerçek Qwen araç seçimi + SQL doğrulaması: v2 40/40.
-
-Demo ücretler sentetiktir. Bağımsız insan finans kabulü ve model hakem
-kalibrasyonu henüz tamamlanmamıştır; bu sınırlar repoda açıkça belgelenir.
+Ücret sözleşmesi sentetiktir. İnsan finans hesapları, kör soru seti ve hakem kalibrasyonu için bağımsız inceleme süreci henüz tamamlanmamıştır.
