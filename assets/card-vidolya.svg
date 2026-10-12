@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="280" viewBox="0 0 500 280" role="img" aria-label="Vidolya — CANLI SAAS">
+<title>Vidolya — CANLI SAAS</title>
+
+<defs>
+  <linearGradient id="vidEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ff7b72"/><stop offset="0.5" stop-color="#30363d"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0.6"/>
+  </linearGradient>
+  <radialGradient id="vidGlow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#ff7b72" stop-opacity="0.22"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="498" height="278" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="498" height="278" rx="16" fill="url(#vidGlow)"/>
+<rect x="1" y="1" width="498" height="278" rx="16" fill="none" stroke="url(#vidEdge)" stroke-width="2"/>
+<rect x="28" y="30" width="97" height="22" rx="11" fill="#ff7b72" fill-opacity="0.14" stroke="#ff7b72" stroke-opacity="0.5"/>
+<text x="76" y="45.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="600" fill="#ff7b72">CANLI SAAS</text>
+<text x="28" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="25" font-weight="800" fill="#e6edf3">Vidolya</text>
+<text x="28" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="14.5" fill="#8b949e">Ürün fotoğrafından dakikalar içinde dikey</text><text x="28" y="131" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="14.5" fill="#8b949e">reklam videosu. Ajans ve çekim gerekmez.</text>
+
+<defs><linearGradient id="vPhone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7b72"/></linearGradient></defs>
+<rect width="0" height="0"><animate id="v" attributeName="x" from="0" to="0" dur="6.76s" begin="0s;v.end"/></rect>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+0.00s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">0</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+0.22s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">46</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+0.44s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">112</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+0.66s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">180</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+0.88s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">241</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+1.10s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">297</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+1.32s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">338</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+1.54s" dur="0.22s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">362</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="v.begin+1.76s" dur="5.00s"/><text x="28" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="44" font-weight="800" fill="#ff7b72">370+</text></g>
+<text x="28" y="234" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="13" fill="#8b949e">platformda üretilen video</text>
+<g transform="translate(372,40)">
+  <rect width="102" height="186" rx="16" fill="#010409" stroke="#30363d" stroke-width="2"/>
+  <rect x="8" y="10" width="86" height="166" rx="10" fill="url(#vPhone)"/>
+  <rect x="26" y="52" width="50" height="50" rx="10" fill="#ffffff" fill-opacity="0.9">
+    <animateTransform attributeName="transform" type="rotate" values="-6 51 77;6 51 77;-6 51 77" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="51" cy="77" r="12" fill="#ff7b72"><animate attributeName="r" values="9;14;9" dur="1.5s" repeatCount="indefinite"/></circle>
+  <rect x="18" y="122" width="66" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="26" y="135" width="50" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.55"/>
+  <rect x="16" y="162" width="70" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.3"/>
+  <rect x="16" y="162" width="0" height="3" rx="1.5" fill="#ffffff"><animate attributeName="width" values="0;70" dur="3s" repeatCount="indefinite"/></rect>
+  <text x="51" y="28" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'DejaVu Sans',sans-serif" font-size="9" font-weight="700" fill="#ffffff">9:16</text>
+</g>
+
+<text x="28" y="256" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="12.5" fill="#ff7b72">vaka çalışması →</text>
+
+</svg>

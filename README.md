@@ -1,14 +1,28 @@
-# Ahmet Emre Yıldız
+<div align="center">
 
-**Kodu AI ajanlarıyla hızlı yazıyorum, doğru olduğunu testlerle kanıtlıyorum.**
+<img src="assets/header.svg" alt="Ahmet Emre Yıldız — Full-stack ve AI uygulama geliştiricisi" width="100%">
 
-Full-stack geliştirici (Python/Django · Next.js/TypeScript) ve AI uygulama geliştiricisi. Gerçek kullanıcısı olan bir SaaS yayına aldım, AI'ın yazdığı kodu mutasyon testi ve LLM değerlendirmesiyle denetliyorum.
+<a href="https://www.linkedin.com/in/ahmet-emre-y%C4%B1ld%C4%B1z-23803b441"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://vidolya.com"><img src="https://img.shields.io/badge/vidolya.com-ff7b72?style=for-the-badge&logo=googlechrome&logoColor=white" alt="vidolya.com"></a>
+<a href="mailto:aemryld@gmail.com"><img src="https://img.shields.io/badge/E--posta-bc8cff?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta: aemryld@gmail.com"></a>
 
-[LinkedIn](https://www.linkedin.com/in/ahmet-emre-y%C4%B1ld%C4%B1z-23803b441) · [vidolya.com](https://vidolya.com) · aemryld@gmail.com · İstanbul
+</div>
 
----
+## ▶ 50 saniyede ben
+
+<img src="assets/terminal.svg" alt="Terminal animasyonu: whoami, KârKontrol kalite kapısı, Vidolya üretim hattı, Jev ajan orkestrasyonu ve iletişim" width="100%">
 
 ## Öne çıkan projeler
+
+<p align="center">
+  <a href="case-studies/vidolya.md"><img src="assets/card-vidolya.svg" alt="Vidolya — canlı SaaS, 370+ video" width="49%"></a>
+  <a href="https://nowackk-cp.github.io/karkontrol/"><img src="assets/card-karkontrol.svg" alt="KârKontrol — 669 test, %98,83 mutasyon skoru" width="49%"></a>
+  <a href="https://github.com/nowackk-cp/b2b-operations-suite"><img src="assets/card-b2b.svg" alt="B2B Operations Suite — 908 test" width="49%"></a>
+  <a href="https://nowackk-cp.github.io/jev/"><img src="assets/card-jev.svg" alt="Jev — AI ajan orkestrasyonu" width="49%"></a>
+</p>
+
+<details>
+<summary><b>Tüm projeler ve kanıtlar (tablo)</b></summary>
 
 | Proje | Hangi sorunu çözüyor? | Kanıt |
 | --- | --- | --- |
@@ -19,13 +33,21 @@ Full-stack geliştirici (Python/Django · Next.js/TypeScript) ve AI uygulama gel
 | **Gerçek zamanlı nesne tespiti** · görüntü işleme | Oyun içi nesneleri canlı görüntüde tespit eder. | 8.000 görüntülük özel veri setiyle YOLOv8 eğitimi |
 | **[Üçbay](https://xn--bay-1la8h.com)** · müşteri projesi | Tekstil tedarikçisi için iki dilli kurumsal site. | Ürün/kategori sayfaları · WhatsApp entegrasyonu |
 
+</details>
+
 ## Nasıl çalışıyorum?
+
+<img src="assets/workflow.svg" alt="Çalışma hattı: AI ajanı yazar, testler, mutasyon, LLM eval, CI, yayında" width="100%">
 
 - **AI ile hız, testle güven.** Claude Code, Cursor ve Codex ile hızlı geliştiriyorum. Her iddiayı bir test, ölçüm veya CI kaydına bağlıyorum.
 - **İş kuralları önce gelir.** Para, stok ve kredi gibi hataya tahammülü olmayan akışları veritabanı seviyesinde atomik yapıyorum.
 - **LLM'i ölçmeden yayına almıyorum.** Soru setleri, regresyon takibi ve GitHub Actions ile model davranışını sürekli kontrol ediyorum.
 
-**Teknolojiler:** Python · TypeScript · C# · SQL · Django · Next.js · NestJS · Supabase · PostgreSQL · Prisma · pytest · Playwright · Vitest · mutation testing · GitHub Actions · YOLOv8 · LLM API'leri
+## Teknolojiler
+
+<img src="assets/stack.svg" alt="Python, TypeScript, C#, SQL, Django, NestJS, PostgreSQL, Prisma, Supabase, Next.js, React, pytest, Playwright, Vitest, mutation testing, Claude Code, Codex, Cursor, LLM API, LLM eval, YOLOv8, GitHub Actions" width="100%">
+
+<sub>Animasyonlar harici servis kullanmayan, kodla üretilmiş SVG'lerdir · <code>python tools/build_readme_svgs.py</code></sub>
 
 ---
 
