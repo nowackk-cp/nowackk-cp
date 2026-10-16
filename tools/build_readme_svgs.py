@@ -12,6 +12,7 @@ CSS, which both play inside <img> tags.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+import math
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -652,6 +653,41 @@ def build_card_jev() -> str:
     )
 
 
+def build_card_ortak() -> str:
+    hub = (405, 190)
+    r = 52
+    colors = [ORANGE, GREEN, BLUE, PURPLE, TEXT, YELLOW, PINK, CYAN]
+    spokes = []
+    for i, color in enumerate(colors):
+        a = -3.14159265 / 2 + i * 2 * 3.14159265 / len(colors)
+        x, y = hub[0] + r * math.cos(a), hub[1] + r * math.sin(a)
+        p = f"M{x:.1f},{y:.1f} L{hub[0]},{hub[1]}"
+        spokes.append(
+            f'<path d="{p}" stroke="{BORDER}" stroke-width="1.5"/>'
+            f'<circle r="3.5" fill="{color}"><animateMotion path="{p}" dur="0.9s" begin="{i * 0.5:.1f}s;{i * 0.5:.1f}s+4s" '
+            f'repeatCount="indefinite"/></circle>'
+            f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="{PANEL}" stroke="{color}" stroke-width="1.5"/>'
+        )
+    visual = f"""
+{''.join(spokes)}
+<rect x="{hub[0] - 31}" y="{hub[1] - 13}" width="62" height="26" rx="13" fill="{PANEL}" stroke="{ORANGE}" stroke-width="1.5"/>
+<text x="{hub[0]}" y="{hub[1] + 4.5}" text-anchor="middle" font-family="{MONO}" font-size="12" font-weight="700" fill="{ORANGE}">ortak</text>
+<g font-family="{SANS}">
+  <text x="28" y="196" font-size="30" font-weight="800" fill="{ORANGE}">11</text>
+  <text x="28" y="216" font-size="12.5" fill="{MUTED}">ajan</text>
+  <text x="98" y="196" font-size="30" font-weight="800" fill="{BLUE}">6</text>
+  <text x="98" y="216" font-size="12.5" fill="{MUTED}">çalışma modu</text>
+  <text x="208" y="196" font-size="30" font-weight="800" fill="{GREEN}">0</text>
+  <text x="208" y="216" font-size="12.5" fill="{MUTED}">npm paketi</text>
+</g>
+"""
+    return card(
+        "ortak", "Ortak", "ÇOKLU AJAN · YEREL", ORANGE,
+        ["Claude Code, Codex, Gemini ve 8 ajanı tek", "masada konuşturur, tartıştırır, işi böler."],
+        visual, "repoyu incele",
+    )
+
+
 # ---------------------------------------------------------------------------
 # 4. Workflow pipeline
 # ---------------------------------------------------------------------------
@@ -769,6 +805,7 @@ def main() -> None:
         "card-karkontrol.svg": build_card_karkontrol(),
         "card-b2b.svg": build_card_b2b(),
         "card-jev.svg": build_card_jev(),
+        "card-ortak.svg": build_card_ortak(),
     }
     for name, content in files.items():
         (OUT / name).write_text(content, encoding="utf-8")
